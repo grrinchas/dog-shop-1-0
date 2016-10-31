@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+    <persistence-unit name="dog-shop" transaction-type="JTA">
+        <jta-data-source>java:/MySQL</jta-data-source>
+        <class>OrderStatus</class>
+        <class>Order</class>
+        <class>ProductOrder</class>
+        <class>Product</class>
+    </persistence-unit>
+</persistence>
